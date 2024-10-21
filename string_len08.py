@@ -8,4 +8,9 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    if len(s)%2 != 0:
+        return s[(len(s)//2)]
+    else:
+        return s[(len(s)//2)]+s[(len(s)//2)-1]
+    
+print (main("abchhcba"))
