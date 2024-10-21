@@ -8,4 +8,10 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    x1 = s[0]
+    x2 = s[-1]
+    if x1 == x2:
+        return True
+    else:
+        return False
+print (main("ada"))
