@@ -1,9 +1,11 @@
 def main(a):
     """
-    A variable of type string is given. Find its length.
+    A string type variable is given. Return True if its length is even. Return False if its length is odd.
     Args:
         a: string
     Returns:
-        length of string
+        True or False
     """
-    return
+    a = "python"
+    return len(a)
+print (main(4))
